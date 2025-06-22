@@ -1,42 +1,38 @@
-IPv4 - Decimal - 32bits
-IPv6 - Hexadecimal - 128bits
+🌐 Redes IP – IPv4 e IPv6
+📌 Introdução
+IPv4: usa números decimais e tem 32 bits
 
-Vamos focar apenas no IPv4 para o Netpractice.
+IPv6: usa números hexadecimais e tem 128 bits
 
-Exemplo de Rede IPv4: 192.168.0.1
+Neste material vamos focar apenas no IPv4, como utilizado no Netpractice.
 
-como o computador ler esse endereco de IP?
+🧠 Como o computador interpreta um endereço IPv4?
+Exemplo: 192.168.0.1
 
-192 -> 8bits = 1 Octeto.
-168 -> 8bits = 1 Octeto.
-0 -> 8bits = 1 Octeto.
-1 -> 8bits = 1 Octeto.
+Um endereço IPv4 é dividido em 4 partes, chamadas de octetos, cada uma com 8 bits:
 
-logo temos 32bits e 4 octetos.
+scss
+Copiar
+Editar
+192 → 8 bits (1 octeto)  
+168 → 8 bits (1 octeto)  
+  0 → 8 bits (1 octeto)  
+  1 → 8 bits (1 octeto)
+🔢 Total: 32 bits = 4 octetos
 
-Classes de Redes:
+🏷️ Classes de Rede IPv4
+Classe	Intervalo do 1º Octeto	Uso
+Classe A	0 a 127	Grandes redes (ex: provedores)
+Classe B	128 a 191	Redes de tamanho médio
+Classe C	192 a 223	Pequenas redes (residencial, escritórios)
+Classe D	224 a 239	📡 Multicast
+Classe E	240 a 255	🧪 Reservada para testes e futuras tecnologias
 
-Classe A:
-1º Octeto entre 0 e 127.
+📡 Tipos de Comunicação IP
+Unicast 🧍: Comunicação entre um emissor e um receptor específico
 
-Classe B:
-1º Octeto entre 128 e 191.
+Multicast 👥: Envio de dados para vários computadores ao mesmo tempo, mas não todos
 
-Classe C:
-1º Octeto entre 192 e 223.
+Broadcast 📢: Envio para todos os dispositivos da mesma rede
 
-Classe D: -> (para Multicast)
-1º Octeto entre 224 e 239.
-
-Classe E: -> (para testes de novas tecnologias)
-1º Octeto entre 240 e 255.
-
-Oque e Multicast?
-
-Unicast: Unico computador.
-Multicast: Varios computadores.
-Broadcast: Todos computadores da mesma rede.
-Anycast: Qualquer um computador mais perto.
-
-
-..........
+Anycast 📍: A mensagem é entregue para o destinatário mais próximo (em termos de rota)

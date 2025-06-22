@@ -14,9 +14,6 @@ Exemplo: 192.168.0.1
 
 Um endereço IPv4 é dividido em 4 partes, chamadas de octetos, cada uma com 8 bits:
 
-scss
-Copiar
-Editar
 192 → 8 bits (1 octeto)  
 168 → 8 bits (1 octeto)  
   0 → 8 bits (1 octeto)  

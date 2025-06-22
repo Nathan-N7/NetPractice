@@ -21,14 +21,21 @@ Um endereço IPv4 é dividido em 4 partes, chamadas de octetos, cada uma com 8 b
   
 🔢 Total: 32 bits = 4 octetos
 
+
 🏷️ Classes de Rede IPv4
 
 Classe	Intervalo do 1º Octeto	Uso
+
 Classe A	0 a 127	Grandes redes (ex: provedores)
+
 Classe B	128 a 191	Redes de tamanho médio
+
 Classe C	192 a 223	Pequenas redes (residencial, escritórios)
+
 Classe D	224 a 239	📡 Multicast
+
 Classe E	240 a 255	🧪 Reservada para testes e futuras tecnologias
+
 
 📡 Tipos de Comunicação IP
 

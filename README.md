@@ -37,3 +37,6 @@ Unicast: Unico computador.
 Multicast: Varios computadores.
 Broadcast: Todos computadores da mesma rede.
 Anycast: Qualquer um computador mais perto.
+
+
+..........

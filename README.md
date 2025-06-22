@@ -1,6 +1,7 @@
 🌐 Redes IP – IPv4 e IPv6
 
 📌 Introdução
+
 IPv4: usa números decimais e tem 32 bits
 
 IPv6: usa números hexadecimais e tem 128 bits

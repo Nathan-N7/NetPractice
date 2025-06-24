@@ -95,13 +95,13 @@ IP	Uso
 <br>
 <br>
 
-🅰️ Classe A – Grandes Redes
+🅐 Classe A – Grandes Redes
 <br>
 📌 Exemplo: 120.200.15.2
 📊 Capacidade: 16.777.214 hosts por rede
 
-    .     200       .     15       .     2
-| Rede    |     Host      |     Host     |    Host  |
+`120       .     200       .     15       .     2`
+`| Rede    |     Host      |     Host     |    Host  |`
 1º octeto (120) → identifica a REDE
 
 3 últimos octetos (200.15.2) → identificam o HOST
@@ -109,8 +109,7 @@ IP	Uso
 <br>
 <br>
 
-🅱️ Classe B – Redes Médias
-<br>
+🅑 Classe B – Redes Médias
 <br>
 📌 Exemplo: 172.16.20.5<br>
 📊 Capacidade: 65.534 hosts por rede
@@ -123,8 +122,7 @@ IP	Uso
 2 últimos octetos (20.5) → identificam o HOST
 <br>
 <br>
-🅲 Classe C – Pequenas Redes
-<br>
+🅒 Classe C – Pequenas Redes
 <br>
 📌 Exemplo: 192.168.0.45
 

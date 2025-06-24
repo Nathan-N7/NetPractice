@@ -84,6 +84,65 @@ Esses IPs não são roteáveis na internet pública, ou seja, servem para redes 
 IP	Uso
 
 `127.0.0.0/8`	Localhost (loopback) 🔁
+
 `169.254.0.0/16`	APIPA – IP automático quando não há DHCP ⚠️
+
 `0.0.0.0`	IP de inicialização 🛠️
+
 `255.255.255.255`	Broadcast geral 🌎
+
+
+<br>
+<br>
+
+🅰️ Classe A – Grandes Redes
+<br>
+📌 Exemplo: 120.200.15.2
+📊 Capacidade: 16.777.214 hosts por rede
+
+    .     200       .     15       .     2
+| Rede    |     Host      |     Host     |    Host  |
+1º octeto (120) → identifica a REDE
+
+3 últimos octetos (200.15.2) → identificam o HOST
+
+<br>
+<br>
+
+🅱️ Classe B – Redes Médias
+<br>
+<br>
+📌 Exemplo: 172.16.20.5<br>
+📊 Capacidade: 65.534 hosts por rede
+<br>
+
+`172       .     16        .     20       .     5` <br>
+`|   Rede   |     Rede      |     Host     |   Host  |`
+2 primeiros octetos (172.16) → identificam a REDE
+
+2 últimos octetos (20.5) → identificam o HOST
+<br>
+<br>
+🅲 Classe C – Pequenas Redes
+<br>
+<br>
+📌 Exemplo: 192.168.0.45
+
+📊 Capacidade: 254 hosts por rede
+
+
+`192       .    168        .     0        .    45`<br>
+`|  Rede   |    Rede       |     Rede     |  Host  |`
+3 primeiros octetos (192.168.0) → identificam a REDE
+
+Último octeto (45) → identifica o HOST
+<br>
+<br>
+💡 Dica visual:
+<br>
+Você pode imaginar o IP assim:
+
+Classe	Bits da Rede	Bits do Host	Exemplo de IP
+A	8 bits	24 bits	120.200.15.2
+B	16 bits	16 bits	172.16.20.5
+C	24 bits	8 bits	192.168.0.45

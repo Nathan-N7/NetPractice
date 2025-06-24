@@ -34,11 +34,12 @@ Um endereço IPv4 é formado por 4 blocos de 8 bits chamados octetos:
 <br>
 Classe	Intervalo do 1º Octeto	Uso
 <br>
-A	0 a 127	Grandes redes 🏢 (provedores)
-B	128 a 191	Redes médias 🏫
-C	192 a 223	Pequenas redes 🏠 (residências/escritórios)
-D	224 a 239	Multicast 📡
-E	240 a 255	Reservada para testes 🧪
+<br>
+A	0 a 127	Grandes redes 🏢 (provedores)<br>
+B	128 a 191	Redes médias 🏫<br>
+C	192 a 223	Pequenas redes 🏠 (residências/escritórios)<br>
+D	224 a 239	Multicast 📡<br>
+E	240 a 255	Reservada para testes 🧪<br>
 
 
 <br>

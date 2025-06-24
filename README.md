@@ -101,7 +101,7 @@ IP	Uso
 📌 Exemplo: 120.200.15.2
 📊 Capacidade: 16.777.214 hosts por rede
 
-`120       .     200       .     15       .     2`
+`120       .     200       .     15       .     2`<br>
 `| Rede    |     Host      |     Host     |    Host  |`
 1º octeto (120) → identifica a REDE
 
@@ -116,7 +116,7 @@ IP	Uso
 📊 Capacidade: 65.534 hosts por rede
 <br>
 
-`172       .     16        .     20       .     5` <br>
+`172       .     16        .     20       .     5`<br>
 `|   Rede   |     Rede      |     Host     |   Host  |`
 2 primeiros octetos (172.16) → identificam a REDE
 

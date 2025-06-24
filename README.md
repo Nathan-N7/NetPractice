@@ -48,19 +48,19 @@ E	240 a 255	Reservada para testes 🧪
 
 Unicast 🧍
 
-Envio de dados para um único destino
+ - Envio de dados para um único destino
 
 Multicast 👥
 
-Envio para vários computadores ao mesmo tempo, mas não todos
+ - Envio para vários computadores ao mesmo tempo, mas não todos
 
 Broadcast 📢
 
-Envio para todos os dispositivos da mesma rede
+ - Envio para todos os dispositivos da mesma rede
 
 Anycast 📍
 
-A mensagem é entregue para o destino mais próximo, em termos de rota
+ - A mensagem é entregue para o destino mais próximo, em termos de rota
 
 
 <br>

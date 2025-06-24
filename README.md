@@ -33,21 +33,44 @@ C	192 a 223	Pequenas redes 🏠 (residências/escritórios)
 D	224 a 239	Multicast 📡
 E	240 a 255	Reservada para testes 🧪
 
+
+
+
+
 📡 Tipos de Comunicação IP
 
-
-
 Unicast 🧍
+
 Envio de dados para um único destino
 
+
+
+
+
+
+
 Multicast 👥
+
 Envio para vários computadores ao mesmo tempo, mas não todos
 
+
+
+
+
 Broadcast 📢
+
 Envio para todos os dispositivos da mesma rede
 
 Anycast 📍
+
 A mensagem é entregue para o destino mais próximo, em termos de rota
+
+
+
+
+
+
+
 
 🔐 IPs Privados (RFC 1918) – usados em redes internas
 
@@ -56,8 +79,15 @@ A mensagem é entregue para o destino mais próximo, em termos de rota
 192.168.0.0/16`
 Esses IPs não são roteáveis na internet pública, ou seja, servem para redes locais como Wi-Fi doméstico, LANs e redes escolares.
 
+
+
+
+
+
 🚫 IPs Reservados
+
 IP	Uso
+
 `127.0.0.0/8`	Localhost (loopback) 🔁
 `169.254.0.0/16`	APIPA – IP automático quando não há DHCP ⚠️
 `0.0.0.0`	IP de inicialização 🛠️

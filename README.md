@@ -240,7 +240,8 @@ Você pode até dividir essas sub-redes novamente, criando sub-sub-redes, se nec
 🔌 1. Função do Roteador: Comunicador de Redes Diferentes
 Regra de ouro:
 <br>
- - "Roteadores nunca encaminham tráfego dentro da mesma rede. Eles só conectam redes diferentes."
+
+  - `Roteadores nunca encaminham tráfego dentro da mesma rede. Eles só conectam redes diferentes.`
 <br>
 Por quê?<br>
 Dispositivos na mesma rede (ex: 25.164.81.0/25) comunicam-se diretamente via MAC addresses.<br>

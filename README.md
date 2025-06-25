@@ -145,3 +145,92 @@ Classe	Bits da Rede	Bits do Host	Exemplo de IP<br>
 A	8 bits	24 bits	120.200.15.2<br>
 B	16 bits	16 bits	172.16.20.5<br>
 C	24 bits	8 bits	192.168.0.45
+<br>
+<br>
+🌐 Sub-redes (Subnetting) – Dividindo uma Rede em Partes Menores
+Quando temos uma rede grande, nem sempre é eficiente deixar todos os dispositivos na mesma rede. Com sub-redes, conseguimos dividir uma rede maior em várias redes menores. Isso ajuda na organização, na segurança e na economia de IPs.
+<br>
+<br>
+🧠 Exemplo simples:
+Você tem a rede 192.168.0.0/24
+
+<br>
+<br>
+Isso dá 256 endereços possíveis (de 192.168.0.0 até 192.168.0.255)
+<br>
+
+O /24 indica que os 24 primeiros bits são da rede, e os 8 restantes são para os hosts (2⁸ = 256 endereços)
+
+<br>
+Mas e se você quiser dividir essa rede em 4 redes menores?
+
+<br>
+<br>
+🔪 Sub-rede da Sub-rede (Subnet dentro de Subnet)
+Podemos "emprestar" bits dos hosts para criar mais redes. Vamos usar a mesma rede 192.168.0.0/24, mas agora transformá-la em 4 sub-redes.
+
+<br>
+<br>
+👇 Como fazer:
+Você precisa dividir os 8 bits de host em 2 + 6
+
+<br>
+Agora temos /26 (24 originais da rede + 2 emprestados = 26 bits para rede)
+
+<br>
+Cada sub-rede terá 64 endereços (2⁶)
+
+<br>
+<br>
+📊 Sub-redes resultantes de 192.168.0.0/24:
+<br>
+Sub-rede	IP Inicial	IP Final	Broadcast
+<br>
+1	192.168.0.0/26	192.168.0.63	192.168.0.63
+<br>
+2	192.168.0.64/26	192.168.0.127	192.168.0.127
+<br>
+3	192.168.0.128/26	192.168.0.191	192.168.0.191
+<br>
+4	192.168.0.192/26	192.168.0.255	192.168.0.255
+<br>
+Cada uma dessas sub-redes agora pode funcionar separadamente!
+
+<br>
+<br>
+🧩 Por que criar sub-redes?
+<br>
+🔐 Segurança: dispositivos de uma sub-rede não acessam os de outra sem permissão
+
+<br>
+📶 Organização: separa setores como administrativo, financeiro, alunos, etc.
+
+<br>
+🚀 Performance: menos dispositivos em cada rede = menos colisão de pacotes
+
+<br>
+🌍 Economia de IPs: evita desperdiçar IPs em redes pequenas
+
+<br>
+<br>
+🔄 Resumo visual:
+<br>
+Você começa com uma rede:
+
+<br>
+<br>
+192.168.0.0/24  →  256 IPs totais
+<br>
+Divide em 4 sub-redes com /26:
+
+<br>
+<br>
+192.168.0.0/26   →  64 IPs
+<br>
+192.168.0.64/26  →  64 IPs
+<br>
+192.168.0.128/26 →  64 IPs
+<br>
+192.168.0.192/26 →  64 IPs
+<br>
+Você pode até dividir essas sub-redes novamente, criando sub-sub-redes, se necessário.

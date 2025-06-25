@@ -238,5 +238,19 @@ Você pode até dividir essas sub-redes novamente, criando sub-sub-redes, se nec
 <br>
 <br>
 
+🔌 1. Função do Roteador: Comunicador de Redes Diferentes
+Regra de ouro:
+<br><br>
+"Roteadores nunca encaminham tráfego dentro da mesma rede. Eles só conectam redes diferentes."
+<br>
+Por quê?<br>
+Dispositivos na mesma rede (ex: 25.164.81.0/25) comunicam-se diretamente via MAC addresses.<br>
+Roteadores operam na camada 3 (IP), tomando decisões com base em endereços lógicos para unir redes distintas.<br>
+<br>
+
+[PC na Rede A] → (Mesma rede) → [Outro PC na Rede A]: ❌ Roteador não participa  
+[PC na Rede A] → (Rede diferente) → [PC na Rede B]: ✅ Roteador encaminha  
+<br>
+<br>
 ![explicacao_net](https://github.com/user-attachments/assets/46a32cbd-7908-4f7b-b6c1-6a2ceece22e7)
 

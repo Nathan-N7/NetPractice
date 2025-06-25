@@ -237,5 +237,6 @@ Você pode até dividir essas sub-redes novamente, criando sub-sub-redes, se nec
 
 <br>
 <br>
-![explicacao_net](https://github.com/user-attachments/assets/5640f373-f8e7-4dd8-8c5a-9b780bd05d03)
-![explicacao_net](https://github.com/user-attachments/assets/5640f373-f8e7-4dd8-8c5a-9b780bd05d03)
+
+![explicacao_net](https://github.com/user-attachments/assets/46a32cbd-7908-4f7b-b6c1-6a2ceece22e7)
+

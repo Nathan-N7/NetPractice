@@ -141,7 +141,7 @@ IP	Uso
 <br>
 Você pode imaginar o IP assim:
 
-Classe	Bits da Rede	Bits do Host	Exemplo de IP
-A	8 bits	24 bits	120.200.15.2
-B	16 bits	16 bits	172.16.20.5
+Classe	Bits da Rede	Bits do Host	Exemplo de IP<br>
+A	8 bits	24 bits	120.200.15.2<br>
+B	16 bits	16 bits	172.16.20.5<br>
 C	24 bits	8 bits	192.168.0.45

@@ -234,15 +234,13 @@ Divide em 4 sub-redes com /26:
 192.168.0.192/26 →  64 IPs
 <br>
 Você pode até dividir essas sub-redes novamente, criando sub-sub-redes, se necessário.
-
 <br>
 <br>
-
+<br>
 🔌 1. Função do Roteador: Comunicador de Redes Diferentes
 Regra de ouro:
 <br>
  - "Roteadores nunca encaminham tráfego dentro da mesma rede. Eles só conectam redes diferentes."
- <br>
 <br>
 Por quê?<br>
 Dispositivos na mesma rede (ex: 25.164.81.0/25) comunicam-se diretamente via MAC addresses.<br>

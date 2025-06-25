@@ -234,3 +234,8 @@ Divide em 4 sub-redes com /26:
 192.168.0.192/26 →  64 IPs
 <br>
 Você pode até dividir essas sub-redes novamente, criando sub-sub-redes, se necessário.
+
+<br>
+<br>
+![explicacao_net](https://github.com/user-attachments/assets/5640f373-f8e7-4dd8-8c5a-9b780bd05d03)
+![explicacao_net](https://github.com/user-attachments/assets/5640f373-f8e7-4dd8-8c5a-9b780bd05d03)
